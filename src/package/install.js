@@ -9,7 +9,7 @@ const fsExtra = require('fs-extra');
 const progress = require('progress');
 
 
-const currentRelease = 'https://api.github.com/repos/wkhtmltopdf/wkhtmltopdf/releases//4730156'; // 0.12.4
+const currentRelease = 'https://api.github.com/repos/wkhtmltopdf/wkhtmltopdf/releases/4730156'; // 0.12.4
 const install = async() => {
 
     const binPath = path.resolve(`${__dirname}/../../release`);
